@@ -1,3 +1,4 @@
+# Source: https://gist.github.com/edemaine/28c2bfebe326de4853f039e0306c4afa
 # To use this gulpfile:
 # npm install --save-dev gulp gulp-chmod gulp-coffee gulp-pug gulp-stylus (initialization)
 # npx gulp (compile everything once)
