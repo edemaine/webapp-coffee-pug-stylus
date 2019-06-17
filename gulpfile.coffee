@@ -1,8 +1,10 @@
-# Source: https://gist.github.com/edemaine/28c2bfebe326de4853f039e0306c4afa
-# To use this gulpfile:
-# npm install --save-dev gulp gulp-chmod gulp-coffee gulp-pug gulp-stylus (initialization)
-# npx gulp (compile everything once)
-# npx gulp watch (automatically compile everything as it changes)
+# Source: https://github.com/edemaine/webapp-coffee-pug-stylus
+# Installation:
+# * Update the included package.json and npm install, or install manually:
+#   npm install --save-dev gulp gulp-chmod gulp-coffee gulp-pug gulp-stylus
+# Usage:
+# * npx gulp (compile everything once)
+# * npx gulp watch (automatically compile everything as it changes)
 
 gulp = require 'gulp'
 gulpCoffee = require 'gulp-coffee'
